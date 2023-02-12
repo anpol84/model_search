@@ -77,7 +77,7 @@ def _merge_hparams(original_hparams, overrides):
 
 def _default_predictions_fn(logits,
                             mode=tf.estimator.ModeKeys.TRAIN,
-                            temperature=1.0):
+                            temperature=15.0):
   """Converts logits to predictions dict. Assumes classification."""
   new_logits = logits
   if mode == tf.estimator.ModeKeys.PREDICT and temperature != 1.0:
