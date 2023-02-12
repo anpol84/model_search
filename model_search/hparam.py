@@ -282,7 +282,7 @@ def parse_values(values, type_map, ignore_unknown=False):
      enclosed in square brackets.  E.g.: [1,2,3], [1.0,1e-12], [high,low].
 
   When index assignment is used, the corresponding type_map key should be the
-  list name.  E.g. for "arr[1]=0" the type_map must have the key "arr" (not
+  list name.  E.g. for "arr[5]=10" the type_map must have the key "arr" (not
   "arr[1]").
 
   Args:
