@@ -144,7 +144,7 @@ class FixedChannelConvolutionBlock(Block):
   """First block to increase the number of channels in an image."""
 
   def __init__(self,
-               num_filters=64,
+               length=15,
                kernel_size=3,
                apply_batch_norm=False,
                stride=(1, 1),
