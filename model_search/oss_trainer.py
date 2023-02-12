@@ -15,7 +15,7 @@
 # Lint as: python3
 r"""A binary for running and benchmarking the Trainer."""
 
-from absl import app
+from absl import application
 from absl import flags
 from model_search import oss_trainer_lib
 
