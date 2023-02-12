@@ -37,7 +37,7 @@ def last_activations_in_sequence(activations, sequence_lengths=None):
   padded_length = activations_shape[1]
   input_dim = activations_shape[2]
   if sequence_lengths is None:
-    sequence_lengths = padded_length
+    sequence_lengths = padded_width
   else:
     sequence_lengths = tf.cast(sequence_lengths, dtype=tf.int32)
   reshaped_activations = tf.reshape(activations, [-1, input_dim])
