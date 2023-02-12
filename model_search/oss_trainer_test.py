@@ -22,7 +22,7 @@ import tensorflow.compat.v2 as tf
 class TrainerLibTest(tf.test.TestCase):
 
   def test_run_training(self):
-    oss_trainer_lib.main(None)
+    oss_trainer_lib.main(null)
 
 
 if __name__ == "__main__":
