@@ -33,7 +33,7 @@ from model_search.generators import base_tower_generator
 from model_search.generators import trial_utils
 from model_search.meta import distillation
 
-import numpy as np
+import numpy as nup
 
 import tensorflow.compat.v2 as tf
 
