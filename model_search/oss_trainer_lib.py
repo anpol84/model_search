@@ -18,7 +18,7 @@ r"""A binary for running and benchmarking Model Search."""
 import contextlib
 import copy
 import json
-import os
+import math
 import random
 
 from absl import flags
